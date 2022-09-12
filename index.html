@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dosa Food | Eat Well Live Well</title>
+
+  
+
+  <!-- FavIcon link -->
+  <link rel="icon" href="img/salad.png">
+
+  <!-- CSS links -->
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/queries.css">
+
+  <!-- Google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700&display=swap" rel="stylesheet">
+
+  
+
+
+
+</head>
+
+<body>
+
+ 
+
+  <main>
+    <!-- Hidden signup page -->
+
+    <div>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-signup">Get your first meal for free!</h2>
+              <p class="cta-text">
+                Healthy, tasty and hassle-free meals are waiting for you. Start
+                eating well today. You can cancel or pause anytime. And the
+                first meal is on us!
+              </p>
+    
+              <form class="cta-form" name="sign-up" netlify>
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input id="full-name" type="text" placeholder="Enter your name" name="full-name" required />
+                </div>
+    
+                <div>
+                  <label for="email">Email address</label>
+                  <input id="email" type="email" placeholder="dashfood@example.com" name="email" required />
+                </div>
+    
+                
+    
+              </form>
+              <button class="btn btn--form">Sign up now</button>
+            </div>
+            <div class="cta-img-box" role="img"></div>
+          </div>
+        </div>
+      </section>
+      </div>
+      <div class="overlay hidden"></div>
+
+    <!-- Header Section -->
+    <header class="header">
+      <a href="#">
+        <img class="logo" src="img/logo.png" alt="DosaFood logo">
+      </a>
+    
+      <!-- Nav header section -->
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="#home" class="main-nav-link">Home</a></li>
+          <li><a href="#About" class="main-nav-link">About</a></li>
+          <li><a href="#Contact" class="main-nav-link show-modal">Sign Up</a></li>
+          <li><a href="#Testimonials" class="main-nav-link">Testimonials</a></li>
+        </ul>
+      </nav>
+      <!-- Mobile Section -->
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+   
+
+    <!-- Hero Section -->
+    <section class="section-hero">
+      <div class="hero">
+        <div class="hero-text-box">
+          <h1 class="heading-primary">
+            Just <span>Eat healty</span> food to live a healthier life
+          </h1>
+          <p class="hero-description">
+            Enjoy a healthy life by eating healthy foods that have extraordinary flavors that made your life heathier
+            for today and
+            in the future.
+          </p>
+          <a href="#cta" class="btn">Start eating well</a>
+        </div>
+
+        <div class="hero-img-box">
+          <img class="hero-img" src="img/hero.png" alt="salad dish">
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured section -->
+    <section class="section-featured">
+      <div class="container">
+        <h2 class="heading-featured-in">As featured in</h2>
+        <div class="logos">
+          <img src="img/logos/techcrunch.png" alt="Techcrunch logo" />
+          <img src="img/logos/business-insider.png" alt="Business Insider logo" />
+          <img src="img/logos/the-new-york-times.png" alt="The New York Times logo" />
+          <img src="img/logos/forbes.png" alt="Forbes logo" />
+          <img src="img/logos/usa-today.png" alt="USA Today logo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Why us section -->
+    <section class="section-why" id="why">
+      <div class="container center-text">
+        <h2 class="heading-secondary ">Why Choose Us?</h2>
+        <h2 class="subheading margin--bottom-md">Organic food is grown without the use of synthetic chemicals</h2>
+      </div>
+      <div class="container grid grid--3-cols">
+        <div class="feature">
+          <img class="feature-img img--check" src="img/check.png" alt="">
+          <p class="feature-title">East to order</p>
+          <p class="feature-text">Our subscriptions cover 365 days per year, even including major holidays.</p>
+        </div>
+        <div class="feature">
+          <img class="feature-img" src="img/nav.png" alt="">
+          <p class="feature-title">Live Order</p>
+          <p class="feature-text">Our cooks only use local, fresh, and organic products to prepare meals.</p>
+        </div>
+        <div class="feature">
+          <img class="feature-img" src="img/eaf.png" alt="">
+          <p class="feature-title">100% Organic</p>
+          <p class="feature-text">All our partners only use reusable containers to package all your meals.</p>
+        </div>
+      </div>
+
+      <div class="section-num grid grid--3-cols">
+        <div class="container container--num1">
+          <h2 class="num-heading">40+</h2>
+          <p class="num-text">Food Partners</p>
+        </div>
+        <div class="container">
+          <h2 class="num-heading">459+</h2>
+          <p class="num-text">trusted Client</p>
+        </div>
+        <div class="container container--num2">
+          <h2 class="num-heading">12k+</h2>
+          <p class="num-text">Order Overview</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-about" id="about">
+      <div class="container grid grid--2-cols grid--center-v">
+
+        <!-- 1 -->
+        <div class="step-text-box">
+          <h3 class="heading-tertiary">
+            About US
+          </h3>
+          <p class="step-description">Never again waste time thinking about what to eat! Dosafood AI
+            will create a 100% personalized weekly meal plan just for you. It
+            makes sure you get all the nutrients and vitamins you need, no
+            matter what diet you follow!</p>
+          <a href="#cta" class="btn btn-full ">Learn More &darr;</a>
+        </div>
+
+        <div class="step-img-box">
+          <img class="step-img" src="https://omnifood.dev/img/app/app-screen-1.png" alt="">
+        </div>
+
+        <!-- 2 -->
+        <div class="step-img-box">
+          <img class="step-img" src="https://omnifood.dev/img/app/app-screen-2.png" alt="">
+        </div>
+
+        <div class="step-text-box">
+          <h3 class="heading-tertiary">
+            Fresh Vegetables Every Day
+          </h3>
+          <p class="step-description">Best chefs in town will cook your selected meal every day, and wewill deliver it
+            to your door whenever works best for you. You can change delivery schedule and address daily!</p>
+          <a href="#cta" class="btn btn-full">Learn More &darr;</a>
+        </div>
+
+        <!-- 3 -->
+        <div class="step-text-box">
+          <h3 class="heading-tertiary">
+            Cooked by the Best Chefs
+          </h3>
+          <p class="step-description">Never again waste time thinking about what to eat! Dosafood AI
+            will create a 100% personalized weekly meal plan just for you. It
+            makes sure you get all the nutrients and vitamins you need, no
+            matter what diet you follow!</p>
+
+        </div>
+
+        <div class="step-img-box step--img-box">
+          <img class="step-img" src="https://omnifood.dev/img/app/app-screen-3.png" alt="">
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+    <!-- Testimonials section -->
+    <section class="section-testimonials" id="testimonials">
+      <div class="testimonials-container">
+        <span class="subheading">Testimonials</span>
+        <h2 class="heading-secondary">Once you try it, you can't go back</h2>
+
+        <div class="testimonials">
+          <figure class="testimonial">
+            <img class="testimonial-img" alt="Photo of customer Dave Bryson" src="img/customers/1.jpg" />
+            <blockquote class="testimonial-text">
+              Inexpensive, healthy and great-tasting meals, without even
+              having to order manually! It feels truly magical.
+            </blockquote>
+            <p class="testimonial-name">&mdash; Dave Bryson</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img class="testimonial-img" alt="Photo of customer Ben Hadley" src="img/customers/31.jpg" />
+            <blockquote class="testimonial-text">
+              The AI algorithm is crazy good, it chooses the right meals for
+              me every time. It's amazing not to worry about food anymore!
+            </blockquote>
+            <p class="testimonial-name">&mdash; Melia Hadley</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img class="testimonial-img" alt="Photo of customer Steve Miller" src="img/customers/51.jpg" />
+            <blockquote class="testimonial-text">
+              DosaFood is a life saver! I just started a company, so there's
+              no time for cooking. I couldn't live without my daily meals now!
+            </blockquote>
+            <p class="testimonial-name">&mdash; Seinna Miller</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img class="testimonial-img" alt="Photo of customer Hannah Smith" src="img/customers/72.jpg" />
+            <blockquote class="testimonial-text">
+              I got DosaFood for the whole family, and it frees up so much
+              time! Plus, everything is organic and vegan and without plastic.
+            </blockquote>
+            <p class="testimonial-name">&mdash; Hannah Smith</p>
+          </figure>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <figure class="gallery-item">
+          <img src="img/gallery/1.png" alt="Photo of beautifully
+                    arranged food" />
+
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/2.png" alt="Photo of beautifully
+                    arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/3.png" alt="Photo of beautifully
+                    arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/4.png" alt="Photo of beautifully
+                    arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/5.png" alt="Photo of beautifully
+                    arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/6.png" alt="Photo of beautifully
+                    arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/7.png" alt="Photo of beautifully
+                    arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/8.png" alt="Photo of beautifully
+                    arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/9.png" alt="Photo of beautifully
+                    arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/10.png" alt="Photo of beautifully
+                    arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/11.png" alt="Photo of beautifully
+                    arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/12.png" alt="Photo of beautifully
+                    arranged food" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- Why us section -->
+    <section class="section-whyUs">
+      <div class="container center-text">
+        <h2 class="heading-secondary ">Special Dishes for you</h2>
+        <h2 class="subheading margin--bottom-md">Healthy, tasty and hassle-free meals are waiting for you.</h2>
+      </div>
+
+      <!-- dish 1 -->
+      <div class="container grid grid--3-cols">
+        <div class="why-card">
+          <img src="img/gallery/1.png" class="why-img" alt="">
+          <h5 class="feature-title">Buddha bowl</h5>
+          <p class="feature-text">Panzanella, Breadcrumbs, Tomatoes, Red, Heirloom tomatoes, Basil, Recipe by Jacob
+            Leungd</p>
+        </div>
+
+        <!-- dish 2 -->
+        <div class="why-card">
+          <img src="img/gallery/2.png" class="why-img" alt="">
+          <h5 class="feature-title">Salad name</h5>
+          <p class="feature-text">Panzanella, Breadcrumbs, Tomatoes, Red, Heirloom tomatoes, Basil, Recipe by Jacob
+            Leungd</p>
+        </div>
+
+        <!-- dish 3 -->
+        <div class="why-card">
+          <img src="img/gallery/3.png" class="why-img" alt="">
+          <h5 class="feature-title">Boerewors salad</h5>
+          <p class="feature-text">Panzanella, Breadcrumbs, Tomatoes, Red, Heirloom tomatoes, Basil, Recipe by Jacob
+            Leungd</p>
+        </div>
+
+        <a href="#cta" class="btn btn-full btn-why">Order Now &darr;</a>
+      </div>
+      </div>
+
+      </div>
+    </section>
+
+
+
+
+  </main>
+
+  <footer class="footer">
+    <div class="container grid grid--footer">
+      <div class="logo-col">
+        <a href="#">
+          <img class="logo" src="img/logo.png" alt="DosaFood logo">
+        </a>
+  
+        <ul class="social-links">
+          <li>
+            <a class="footer-link" href="#">
+              <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a class="footer-link" href="#">
+              <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a class="footer-link" href="#">
+              <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+        </ul>
+  
+        <p class="copyright">
+          Copyright &copy; <span class="year">2027</span> by Dosafood, Inc.
+          All rights reserved.
+        </p>
+      </div>
+  
+      <div class="address-col">
+        <p class="footer-heading">Contact us</p>
+        <address class="contacts">
+          <p class="address">
+            623 Harrison St., 2nd Floor, San Francisco, CA 94107
+          </p>
+          <p>
+            <a class="footer-link" href="tel:415-201-6370">415-201-6370</a><br />
+            <a class="footer-link" href="mailto:hello@omnifood.com">hello@DosaFood.com</a>
+          </p>
+        </address>
+      </div>
+  
+      <nav class="nav-col">
+        <p class="footer-heading">Account</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">Create account</a></li>
+          <li><a class="footer-link" href="#">Sign in</a></li>
+          <li><a class="footer-link" href="#">iOS app</a></li>
+          <li><a class="footer-link" href="#">Android app</a></li>
+        </ul>
+      </nav>
+  
+      <nav class="nav-col">
+        <p class="footer-heading">Company</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">About Dosafood</a></li>
+          <li><a class="footer-link" href="#">For Business</a></li>
+          <li><a class="footer-link" href="#">Cooking partners</a></li>
+          <li><a class="footer-link" href="#">Careers</a></li>
+        </ul>
+      </nav>
+  
+      <nav class="nav-col">
+        <p class="footer-heading">Resources</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">Recipe directory </a></li>
+          <li><a class="footer-link" href="#">Help center</a></li>
+          <li><a class="footer-link" href="#">Privacy & terms</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+
+<!-- ionicons Link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- js link -->
+  <script src="script.js"></script>
+</body>
+
+</html>
